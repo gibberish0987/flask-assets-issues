@@ -1,0 +1,5 @@
+.DS_Store
+1/env/*
+1/static/.webassets-cache/*
+2/env/*
+2/static/.webassets-cache/*
