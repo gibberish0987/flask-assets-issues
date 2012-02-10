@@ -13,10 +13,7 @@ assets.register('template.js',
 	)
 )
 
-# Case 1: Doesn't process the templates at all
-#assets.debug = True #or #assets.debug = 'merge'
-
-# Case 2: Breaks the template file after first refresh, appends broken templates
+# Breaks the template file after first refresh, appends broken templates
 #assets.updater = 'always'
 #assets.cache = False
 # Need to delete .webassets-cache, Bundle output AND restart server to recover
