@@ -7,7 +7,7 @@ app = Flask(__name__)
 assets = Environment(app)
 
 assets.register('lib.js',
-	Bundle('underscore.js', 'bootstrap.js',
+	Bundle('bootstrap.min.js',
 		filters='jsmin',
 		output='lib.js'
 	)
